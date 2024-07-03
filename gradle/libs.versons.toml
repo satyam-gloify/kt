@@ -1,0 +1,28 @@
+[versions]
+agp = "8.5.0"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+appcompatV = "1.7.0"
+constraintlayoutV = "2.1.4"
+lifecycleLivedataKtx = "2.8.2"
+lifecycleViewmodelKtx = "2.8.2"
+navigationVersionKtx = "2.7.7"
+composeMaterial3 ="1.2.1"
+
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core",name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompatV" }
+androidx-constraint-layout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref ="constraintlayoutV" }
+androidx-lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref ="lifecycleLivedataKtx" }
+androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref ="lifecycleViewmodelKtx" }
+androidx-navigation-fragment-ktx = { groud = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationVersionKtx"}
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "composeMaterial3" }
+
+
+
+[plugins]
+android-application-gradle-plugin = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android-plugin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jetbrains-compose-plugin = { id = "ord.jetbrains.kotlin.compose", version.ref = "kotlin"}
